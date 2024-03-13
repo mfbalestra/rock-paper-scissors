@@ -2,3 +2,41 @@ body {
     background-color: black;
     color: white;
 }
+
+.title {
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+}
+
+#scores-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#player-score, #computer-score {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#player-label, #computer-label {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#choices {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
